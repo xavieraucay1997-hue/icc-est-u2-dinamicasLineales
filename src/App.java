@@ -10,6 +10,7 @@ public class App {
         runQueue();
         runArrayDequeQueue();
         runStack();
+        System.out.println();
 
         System.out.println(" EJERCICIO 1 ");
 
@@ -19,6 +20,8 @@ public class App {
         String textoInvertido = ejercicio1.invertString(texto);
 
         System.out.println(textoInvertido);
+
+        System.out.println();
 
         System.out.println(" EJERCICIO 2 ");
 
