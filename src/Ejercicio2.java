@@ -1,8 +1,9 @@
 import java.util.ArrayDeque;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
 
-    public String invertString(String texto) {
+    public boolean esPalindromo(String texto) {
+
         ArrayDeque<Character> pila = new ArrayDeque<>();
 
         for (char letra : texto.toCharArray()) {
@@ -15,6 +16,6 @@ public class Ejercicio1 {
             invertido += pila.pop();
         }
 
-        return invertido;
+        return texto.equals(invertido);
     }
 }
